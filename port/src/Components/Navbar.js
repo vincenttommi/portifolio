@@ -8,7 +8,7 @@ const Navbar = () => {
       </div>
 
     <ul className="flex">
-        <li className='px-4   cursor-pointer'>Home</li>
+        <li className='px-4   cursor-pointer capitalize font-medium text-gray-500 hover:scale-105'>home</li>
         <li className="">Home</li>
        
 
