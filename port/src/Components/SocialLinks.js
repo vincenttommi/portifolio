@@ -3,8 +3,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa"; 
 // import {FaTwitterSquare} from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import { IconName } from "react-icons/ci";
-// import { BsDownload } from 'react-icons/pi';
+import { BsJournalArrowDown} from "react-icons/bs";
 
 const SocialLinks = () => {
 
@@ -13,7 +12,8 @@ const SocialLinks = () => {
         {
         id:1,
         child:(
-            <>LinkedIn  <FaLinkedin size={30}/> 
+          <>
+            LinkedIn  <FaLinkedin size={30}/> 
         </>
         ),
         href : "https://linkedin.com",
@@ -23,7 +23,8 @@ const SocialLinks = () => {
         {
           id:2,
           child:(
-             <>GitHub <FaGithubSquare size={30}/>
+             <>
+             GitHub <FaGithubSquare size={30}/>
              </>
           ),
           href:'https://github.com/vincenttommi',
@@ -32,23 +33,25 @@ const SocialLinks = () => {
         {
             id:3,
             child:(
-               <>Mail<AiOutlineMail size={30} />
+               <>
+               Mail<AiOutlineMail size={30} />
                </>
             ),
-            href:"mailto:foo@gmail.com"
+            href:"vincenttommi@gmail.com"
 
           },
           {
             id:4,
             child:(
-               <>Resume <CiSaveDown2 tsize={30}/>
+               <>
+               Resume <BsJournalArrowDown size={30}/>
                </>
             ),
             href:'/resume.pdf',
             style:'rounded-br-md',
-            download:true,
-          }
-    ]
+          download:true,
+     },
+    ];
 
 
 
@@ -57,13 +60,13 @@ const SocialLinks = () => {
     <ul>
 
 
-{links.map((link,child,href,style,download)=>(
+{links.map(({id,child,href,style,download})=>(
 <li key={id} className={"flex  justify-between items-center w-40 h-14 px-4  bg-gray-500  ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" + "" + style}>
-<a  href={href} className='flex justify-between items-center w-full text-white'>
-    download={download}
-    target="_blank"
+<a  href={href} className='flex justify-between items-center w-full text-white'
+  download={download}
+  target="_blank"
+>
 {child}
-
 </a>
 </li>
 ))}
