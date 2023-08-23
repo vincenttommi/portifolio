@@ -1,9 +1,6 @@
 import React from 'react'
 import react from '../assests/port/react.png'
-import images from '../assests/port/images.png'
-import node from '../assests/port/node.png'
 import javascript from '../assests/port/javascript.png'
-import flasklogo  from '../assests/port/flasklogo.jpg'
 import Django from '../assests/port/Django.png'
 
 const Portfolio = () => {
