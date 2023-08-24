@@ -7,6 +7,7 @@ import tailwind from '../assests/port/tailwind.png'
 import Python  from '../assests/port/Python.png'
 import javascript  from '../assests/port/javascript.png'
 import github from '../assests/port/github.png'
+import figma from '../assests/port/figma.jpg'
 
 const Experience = () => {
 
@@ -57,8 +58,14 @@ const data = [
        {
         id:8,
         src:github,
-        title:"Githu",
+        title:"Github",
         style:"shadow-gray-400"
+       },
+       {
+        id:9,
+        src:figma,
+        title:"Figma",
+        style:"shadow-red-400"
        }
     
 ]
@@ -78,8 +85,8 @@ const data = [
                 data.map(({id,src,title,style})=>(
 
         <div key={id} className='shadow-md hover:scale-105  duration-500 py-2 rounded-lg'>
-                <img src={Django} alt='' className='w-20 mx-auto' />
-                 <p className='mt-4'>Django</p>
+                <img src={src} alt='' className='w-20 mx-auto' />
+                 <p className='mt-4'>{title}</p>
                 </div>
 
                 ))

@@ -2,6 +2,7 @@ import React from 'react'
 import react from '../assests/port/react.png'
 import javascript from '../assests/port/javascript.png'
 import Django from '../assests/port/Django.png'
+import flask from '../assests/port/flask.jpg'
 
 const Portfolio = () => {
 
@@ -13,22 +14,22 @@ const Portfolio = () => {
         },
         {
             id:2,
-            src:images,
-            href : "https://github.com/vincenttommi",
-        },
-        {
-            id:3,
-            src:node,
-            href : "https://github.com/vincenttommi",
-        },
-        {
-            id:4,
             src:javascript,
             href : "https://github.com/vincenttommi",
         },
         {
+            id:3,
+            src:React,
+            href : "https://github.com/vincenttommi",
+        },
+        {
+            id:4,
+            src:Django,
+            href : "https://github.com/vincenttommi",
+        },
+        {
             id:5,
-            src:flasklogo,
+            src:flask,
             href : "https://github.com/vincenttommi",
         },
         {
@@ -55,7 +56,7 @@ const Portfolio = () => {
         {portfolio.map(({ id, src,href}) => (
           <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img
-              src={Django}
+              src={src}
               alt=""
               className="rounded-md duration-200 hover:scale-105"
             />
