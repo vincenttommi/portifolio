@@ -23,7 +23,7 @@ const data = [
         id:2,
         src:flask,
         title:"Flask",
-        style:"shadow-black-500"
+        style:"shadow-green-600"
        },
        {
         id:3,
@@ -59,13 +59,13 @@ const data = [
         id:8,
         src:github,
         title:"Github",
-        style:"shadow-gray-400"
+        style:"shadow-gray-500"
        },
        {
         id:9,
         src:figma,
         title:"Figma",
-        style:"shadow-red-400"
+        style:"shadow-orange-400"
        }
     
 ]
@@ -84,7 +84,7 @@ const data = [
 
                 data.map(({id,src,title,style})=>(
 
-        <div key={id} className='shadow-md hover:scale-105  duration-500 py-2 rounded-lg'>
+        <div key={id} className={`shadow-md hover:scale-105  duration-500 py-2 rounded-lg ${style}`}>
                 <img src={src} alt='' className='w-20 mx-auto' />
                  <p className='mt-4'>{title}</p>
                 </div>

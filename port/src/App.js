@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Portfolio from "./Components/Portfolio";
 import SocialLinks from "./Components/SocialLinks";
 import Experience from "./Components/Experience";
+import Contacts from "./Components/Contacts";
 
 
 
@@ -15,6 +16,7 @@ function App() {
 <About/>
 <Portfolio/>
 <Experience/>
+<Contacts/>
 
 
 <SocialLinks/>
