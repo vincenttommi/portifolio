@@ -9,14 +9,12 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4  border-gray-500'>About Me</p>
             </div>
         <p className='text-xl mt-20'>
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+        Hello there! I'm Vincent Tommi, a passionate software engineer with a strong affinity for crafting innovative digital solutions. My journey in the realm of code began with a fascination for technology and a curiosity to unravel its endless possibilities
         </p>
 
         <br/>
 
-        <p className='txt-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
+        <p className='txt-4xl'>As a seasoned developer, my expertise lies in the dynamic world of web development. I thrive in the Python ecosystem, boasting proficiency in Django and Flask, where I architect robust backends that power seamless user experiences. On the frontend, I'm captivated by the elegance of JavaScript and React, shaping interactive interfaces that engage and delight user
         </p>
     </div>
     </div>
