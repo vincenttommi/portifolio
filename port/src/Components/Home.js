@@ -10,7 +10,7 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm am a Full Stack Developer</h2>
              <p className='text-gray-500 py-4 max-w-md'>
-   I Have   I have 1 year experience of building  and  desgining software.
+   I Have   I have over 3 year experience of building  and  desgining software.
    Currently , I love to work  on web application using technologies like 
    React,Tailwind-css,Flask and Django.
              </p>
